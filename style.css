@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #1d1d1f;
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+    height: 36px;
+    font-size: 12px;
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 17px;
+    color: #1d1d1f;
+}
+.navi{
+    position: relative;
+    height: 35px;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    color: #1d1d1f;
+}
+.main{
+    background-image: url(images/applebgg.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 600px;
+    background-size:cover;
+}
+.box{
+    display: grid;
+    grid-template-rows: 200px
+                        45px
+                        200px
+                        35px;
+}
+.box>div{
+    background-color: #0071e3;
+    width: 200px;
+    color: white;
+    padding: 18px 25px;
+    font-size: 35px;
+    margin-left: 40%;
+    margin-bottom: 17px;
+    height: auto;
+    font-weight: 700;
+    border-radius: 36px;
+    
+}
+.box :first-child{
+    margin-top: 40px;
+}
+.box :nth-child(2){
+    font-size: 20px;
+    padding: 8px 5px;
+    width: 235px;
+    margin-top: -8px;
+}
+.box button{
+    background-color: white;
+    color: #1d1d1f;
+    width: 80px;
+    height: 40px;
+    margin-left: 47%;
+    align-self: center;
+    border-color: #0071e3;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+.one{
+    height: 90vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+    margin-top: 10px;
+}
+.box2{
+    display: grid;
+    /* align-items: center; */
+    justify-content: center;
+    grid-template-rows :75px
+                        50px
+                        50px
+                        70px
+                        200px;
+    -ms-grid-column-align: center;
+
+}
+.box2 div{
+    margin-top: 33px;
+    text-align: center;
+}
+.box2 :nth-child(1){
+    font-size: 53px;
+    font-weight: 650;
+}
+.box2 :nth-child(2){
+   font-size: 27px;
+}
+.box2 :nth-child(3) button{
+    font-size: medium;
+    font-weight: normal;
+    /* height: 40px;
+    width: 140px; */
+    padding: 12px 26px;
+    margin-left: 10px;
+    border-radius: 30px;
+    border-color: #0071e3;
+    color: #0071e3;
+    background-color:#f5f5f7;
+}
+.box2 :nth-child(3) button:hover{ 
+    cursor: pointer;
+    background-color: #0071e3;
+    color: #f5f5f7;
+    border-color: #0071e3;
+}
+.box2 :nth-child(4){
+    margin-top: 55px;
+    font-size: 20px;
+    color:color-mix(in srgb,red 70%, blue 40%);
+}
+.box2 :nth-child(5){
+    margin-left: -3%;
+}
