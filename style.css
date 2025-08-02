@@ -120,6 +120,11 @@ section div .colorful {
     color: #0071e3;
     background-color:transparent;
 }
+.box2 :nth-child(3) :nth-child(1){
+    border: #0071e3;
+    background-color: #0071e3;
+    color: #f5f5f7;
+}
 .box2 :nth-child(4){
     margin-top: 55px;
     font-size: 20px;
@@ -171,6 +176,11 @@ section div .colorful {
     color: #0071e3;
     margin-top: 0;
 }
+.two>div :nth-child(4) :nth-child(1){
+    border: #0071e3;
+    background-color: #0071e3;
+    color: #f5f5f7;
+}
 .two>div :nth-child(4) :nth-child(2){
     width: 65px;
 }
@@ -215,6 +225,11 @@ section div .colorful {
     color: #0071e3;
     margin-top: 0;
 
+}
+.three .d1 :nth-child(3) :nth-child(1){
+    border: #0071e3;
+    background-color: #0071e3;
+    color: #f5f5f7;
 }
 .three .d1 :nth-child(3) :nth-child(2){
     width:70px;
@@ -262,6 +277,11 @@ section div .colorful {
     color: #0071e3;
     margin-top: 0;
 }
+.three .d2 :nth-child(4) :nth-child(1){
+    border: #0071e3;
+    background-color: #0071e3;
+    color: #f5f5f7;
+}
 .three .d2 :nth-child(4) :nth-child(2){
     width:70px;
 }
@@ -274,4 +294,175 @@ section div .btn:hover{
     cursor: pointer;
     background-color: #0071e3;
     color:#f5f5f7;
+}
+.four{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.four .c1{
+    margin: 10px;
+    margin-top: 0;
+    background-image: url(images/studykid.jpg);
+    background-repeat: no-repeat;
+    width: calc(50vw-10px);
+    height: 560px;
+    background-size:cover;
+    text-align: center;
+}
+.four button{
+    margin-top: 55vh;
+    height: 40px;
+    width: 105px;
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    border-color: #f5f5f7;
+    border-radius: 30px;
+}
+.four button:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.four .c2{
+    margin: 10px -2px;
+    margin-top: 0;
+    background-image: url(images/human.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: calc(50vw-10px);
+    height: 560px;
+    background-size:cover;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 50px
+                        25px
+                        25px
+                        40px;
+}
+.four .c2>div{
+    margin-top: 52vh;
+    color: #f5f5f7;
+}
+.four .c2 :nth-child(1){
+    font-size: 40px;
+}
+.four .c2 .a{
+    font-size: 20px;
+}
+.four .c2 :nth-child(4) button{
+    font-size: medium;
+    font-weight: lighter;
+    height: 40px;
+    width: 120px;
+    margin-left: 10px;    
+    border-radius: 30px;
+    margin-top: 2vh;   
+}
+.four .c2 :nth-child(4) :nth-child(1){
+    border: #0071e3;
+    background-color: #0071e3;
+    color: #f5f5f7;
+}
+.four .c2 :nth-child(4) :nth-child(2){
+    background-color: transparent;
+    border-color: #0071e3;
+    color: #0071e3;
+    width: 70px;
+}
+.four .c2 :nth-child(4) .btn:hover{
+    cursor:pointer;
+    background-color: #0071e3;
+    color:#f5f5f7;
+}
+.five{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.five .b1{
+    margin: 10px;
+    margin-top: 0;
+    background-image: url(images/laptophalf.jpg);
+    background-repeat: no-repeat;
+    width: calc(50vw-10px);
+    height: 560px;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 50px
+                        20px
+                        360px
+                        20px;
+}
+.five .b1 div{
+    margin-top: 8vh;
+    color: #f5f5f7;
+}
+.five .b1 :nth-child(1){
+    font-size: 40px;
+    font-weight: bold;
+}
+.five .b1 :nth-child(2){
+    font-size: 20px;
+}
+.five .b1 :nth-child(3) button{
+    font-size: medium;
+    font-weight: lighter;
+    height: 40px;
+    width: 120px;
+    margin-left: 10px;    
+    border-radius: 30px;
+    margin-top: 2vh;   
+}
+.five .b1 :nth-child(3) :nth-child(1){
+    border: #0071e3;
+    background-color: #0071e3;
+    color: #f5f5f7;
+}
+.five .b1 :nth-child(3) :nth-child(2){
+    background-color: transparent;
+    border-color: #0071e3;
+    color: #0071e3;
+    width: 70px;
+}
+.five .b1 :nth-child(4){
+    font-size: 15px;
+    color:color-mix(in srgb,red 70%, blue 40%);
+}
+.five .b2{
+    margin: 10px -2px;
+    margin-top: 0;
+    background-image: url(images/twohands.jpg);
+    background-repeat: no-repeat;
+    width: calc(50vw-10px);
+    height: 560px;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 50px
+                        20px
+                        360px
+                        20px;
+}
+.five .b2 div{
+    margin-top: 8vh;
+}
+.five .b2 :nth-child(1){
+    font-size: 40px;
+    font-weight: 550;
+}
+.five .b2 :nth-child(2){
+    font-size: 21px;
+}
+.five .b2 :nth-child(3) button{
+    font-size: medium;
+    font-weight: lighter;
+    height: 40px;
+    width: 160px;
+    margin-left: 10px;    
+    border-radius: 40px;
+    margin-top: 2vh; 
+    border: #0071e3;
+    background-color: #0071e3;
+    color: #f5f5f7;  
 }
