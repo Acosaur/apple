@@ -50,22 +50,43 @@ section div .colorful {
     width: 200px;
     color: white;
     padding: 18px 25px;
-    font-size: 35px;
+    font-size: 38px;
     margin-left: 40%;
     margin-bottom: 17px;
     height: auto;
     font-weight: 700;
     border-radius: 36px;
-    
 }
 .box :first-child{
-    margin-top: 40px;
+    margin-top: 30px;
+    z-index: 20;
+}
+.box :first-child img{
+    z-index: 50;
+    margin-top: -500px;
+    margin-bottom: 160px;
+    margin-left: 145px;
+}
+.box :first-child :nth-child(2){
+    margin-top: 30px;
+    margin-left: 42px;
+    z-index: 45px;
 }
 .box :nth-child(2){
     font-size: 20px;
     padding: 8px 5px;
     width: 235px;
     margin-top: -8px;
+}
+.box :nth-child(3){
+    margin-bottom: 2px;
+}
+.box :nth-child(3) img{
+    z-index: 50;
+    margin-top: -300px;
+    margin-bottom: 190px;
+    margin-right: 50px;
+    margin-left: -30px;
 }
 .box button{
     background-color: transparent;
@@ -465,4 +486,84 @@ section div .btn:hover{
     border: #0071e3;
     background-color: #0071e3;
     color: #f5f5f7;  
+}
+.six{
+    background-image: url(images/movie.jpg);
+    background-repeat: no-repeat;
+    margin: 0 10vw;
+    top: 0;
+    width: 78vw;
+    height: 67vh;
+    background-size: cover;
+    padding-bottom: 10vh;
+    display: grid;
+}
+.six .ippo{
+   margin: 67vh 3vw;
+}
+.six .ippo :nth-child(1){
+    height: 47px;
+    width: 125px;
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    border-color: #f5f5f7;
+    font-size: 15px;
+    border-radius: 30px;
+}
+.six .ippo :nth-child(1):hover{
+    background-color: white;
+    cursor: pointer;
+}
+.six .ippo :nth-child(2){
+    font-weight: bold;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.six .ippo :nth-child(3){
+    font-size: 20px;
+    color: whitesmoke;
+}
+.seven{
+    background-color: rgb(245, 245, 247);
+    margin: 8vh 0;
+    padding: 3vh 14vw;
+    font-size: 12px;
+}
+.seven div p{
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.56);
+}
+.seven div p a{
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.72);
+}
+.seven .a2{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.seven .a2 div ul{
+    margin-top: 15px;
+    color: black;
+}
+.seven .a2 div ul li{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.70);
+    list-style: none;
+}
+.seven .a3 .o{
+    color: rgba(0, 0, 0, 0.56);
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.seven .a3 .o a{
+    color: #0071e3;
+    text-decoration: underline;
+}
+.seven .a3 .t{
+    display: grid;
+    grid-template-columns: 400px 500px 50px;
+}
+.seven .a3 .t div{
+    color: rgba(0, 0, 0, 0.56);
+    margin-top: 15px;
 }
